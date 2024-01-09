@@ -1,0 +1,144 @@
+
+body{background-color: rgba(212, 203, 192, 0.856);}
+
+
+
+
+
+*{margin: 0; padding: 0;}
+
+
+
+
+.nav{height: 70px;width: 100%; background-color: rgb(255, 255, 255); 
+display: flex
+;justify-content: space-between; 
+position: fixed; top: 0px;}
+
+.image{height: 40px; width: 200px; position: absolute;left: 30px;top: 10px;
+    }
+
+
+.search{border-radius: 5px; 
+    height: 35px; width: 300px; 
+    margin-top: 20px;
+     position: absolute;left: 280px;
+    padding-left: 20px; }
+
+    .ul{list-style: none; display: flex; position: absolute; right: 350px;top: 10px;}
+    li{padding: 20px;}
+
+
+.pre{position: absolute;right: 20px; top: 20px;}
+
+
+
+
+
+
+
+
+
+.sidebar{height: 400px; width: 250px;
+    background-color: rgba(255, 255, 255, 0.946);
+   position: absolute; left: 30px;top: 100px;
+ 
+display: flex;
+border-radius: 10px;}
+
+.sidebarimg{height: 100px ; width: 100%; border-top-right-radius: 10px;}
+
+.sidebarprofile{height: 80px;width: 80px; position: absolute;top: 50px; right: 85px; border-radius: 100%;
+border: solid;}
+
+.profilename{position: absolute;top: 150px; left: 70px; font-size: 18px; }
+
+
+.profilename1{position: absolute;top:180px; left: 70px; font-size: 13px;  color: rgba(0, 0, 0, 0.521);}
+
+
+.hr{height: 50px; width:100%;
+  
+     position: absolute;top: 250px;
+      padding-top:  30px;
+       color: black; background-color: rgba(0, 0, 0, 0.048);
+    }
+
+
+
+
+
+
+
+
+
+
+.rightsidebar{height: 500px; width: 250px;
+    background-color: rgba(255, 255, 255, 0.946);
+    position: fixed; right: 30px;top: 100px;
+ 
+    border-radius: 10px; 
+}
+
+   
+.rightsidebar1{position: absolute; top: 10px; left: 5px;}
+
+.rightsidebarprofie{height: 60px; width: 60px;
+    border-radius: 100%; 
+    margin-left: 10px;
+    border: solid;
+   display: flex; }
+
+    .mp{height: 80px; width:100%;
+  
+       margin-top: 40px;
+         padding-top:  30px;
+        ;
+       }
+   
+
+
+.rspn{position: absolute; left: 100px;margin-top: -30px;}
+
+.followbt{
+    border-radius: 20px; 
+padding: 3px; width: 100px;
+margin-left: 39px;
+}
+
+
+
+
+.post{height: auto; width: 700px; 
+        ; position: relative;left:300px ; display: flex; margin-top: 50px;}
+
+    .start{height: 180px; width: 700px; 
+        margin: auto;
+        background-color: rgba(255, 255, 255, 0.946);
+    border-radius: 50px; position: absolute; top: 50px; left: 20px;}
+
+    .startimg{height: 70px; width: 70px;
+        border-radius: 100%; 
+        position: absolute; top: 40px; left: 30px; border: solid;}
+
+    .startpost{ margin-left: 110px; 
+        height: 40px; width: 400px; 
+    border-radius: 25px; 
+    margin-top: -50px; 
+     padding-left: 20px;
+    display: flex; position: absolute; top: 110px; left: 15px;}
+
+
+
+
+ul{list-style: none;}
+    .startpost1{ position: absolute; bottom: 5px; left: 50px;}  
+    .startpost2{ position: absolute; bottom: 5px; left: 250px;}  
+    .startpost3{ position: absolute; bottom: 5px; right: 50px;}  
+
+
+    .post1{height: 600px; width: 600px; margin-top:250px; border-radius: 20px; padding-left: 40px;}
+    .ppost1{height: 100% ;width: 100%;  border-radius: 20px;}
+
+    .post2{height: 600px; width: 600px;  border-radius: 20px; margin: auto; margin-top:80px;}
+    .ppost2{height: 100% ;width: 100%; border-radius: 20px; margin: auto;}
